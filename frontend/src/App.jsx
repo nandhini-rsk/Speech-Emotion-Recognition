@@ -215,20 +215,20 @@ function App() {
           {/* File Selected UI */}
           {file && (
             <div>
-               <div style={{ background: 'rgba(59, 130, 246, 0.1)', padding: '1rem', borderRadius: 'var(--radius)', marginBottom: '1.5rem', display: 'flex', alignItems: 'center', gap: '1rem', border: '1px solid rgba(59, 130, 246, 0.2)' }}>
-                  <div style={{ background: 'rgba(59, 130, 246, 0.2)', padding: '0.5rem', borderRadius: '50%' }}>
+                <div style={{ background: '#eff6ff', padding: '1.25rem', borderRadius: 'var(--radius)', marginBottom: '1.5rem', display: 'flex', alignItems: 'center', gap: '1.25rem', border: '1px solid #dbeafe' }}>
+                  <div style={{ background: 'white', padding: '0.625rem', borderRadius: '50%', boxShadow: 'var(--shadow-sm)' }}>
                     <Activity size={24} color="var(--primary)" />
                   </div>
                   <div>
-                    <p style={{ fontWeight: 600, margin: 0, color: 'var(--text-main)' }}>{file.name}</p>
-                    <p style={{ fontSize: '0.8rem', color: 'var(--text-muted)', margin: 0 }}>
+                    <p style={{ fontWeight: 600, margin: 0, color: 'var(--text-main)', fontSize: '1.05rem' }}>{file.name}</p>
+                    <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)', margin: 0 }}>
                       {(file.size / 1024 / 1024).toFixed(2)} MB
                     </p>
                   </div>
                </div>
 
                {/* Waveform */}
-               <div ref={waveformRef} style={{ marginBottom: '1.5rem', background: 'rgba(59, 130, 246, 0.05)', padding: '1rem', borderRadius: 'var(--radius)', border: '1px solid rgba(59, 130, 246, 0.1)' }}></div>
+               <div ref={waveformRef} style={{ marginBottom: '1.5rem', background: '#f8fafc', padding: '1.25rem', borderRadius: 'var(--radius)', border: '1px solid #e2e8f0' }}></div>
                
                <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
                   <button className="btn btn-secondary" onClick={togglePlayPause}>
