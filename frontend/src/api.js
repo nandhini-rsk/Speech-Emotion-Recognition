@@ -2,7 +2,7 @@ import axios from 'axios';
 
 // Automatically use Railway backend in production, localhost in development
 const API_BASE_URL = import.meta.env.PROD 
-  ? 'https://your-railway-backend-url.railway.app'  // Replace this after Railway deployment
+  ? 'https://web-production-5d2a5.up.railway.app'
   : 'http://localhost:8000';
 
 const api = axios.create({
