@@ -1,5 +1,7 @@
 # Speech Emotion Recognition
 
+https://github.com/user-attachments/assets/3495b495-f465-4c8b-b611-c2efc2a395aa
+
 A full-stack web application for analyzing emotions from speech using Deep Learning.
 
 ## Features
