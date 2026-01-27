@@ -35,8 +35,12 @@ backend/data/
 *.wav
 *.mp3
 test_audio.wav
+*.ps1
 
-# Model files (optional - uncomment if you don't want to commit large model files)
-# backend/model/ser_model.h5
-# backend/model/scaler.pkl
-# backend/model/encoder.pkl
+# Model files
+encoder.pkl
+scaler.pkl
+ser_model.h5
+backend/model/ser_model.h5
+backend/model/scaler.pkl
+backend/model/encoder.pkl
