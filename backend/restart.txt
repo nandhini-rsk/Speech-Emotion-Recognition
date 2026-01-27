@@ -1,0 +1,3 @@
+
+# Validating Fix
+Retrained with string labels. Expect "Happy"/"Sad" instead of "2".
